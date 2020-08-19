@@ -1,0 +1,30 @@
+$primary-color: #F2F2F2;
+$secondary-color: #ffffff;
+$accent-color: #059F81;
+$text-color: #000022;
+$font-weights: ("regular": 400, "bold":700);
+$padding: (30px 50px);
+
+.header {
+    background: $secondary-color;
+    color: $text-color;
+
+    .header__list {
+        padding: $padding;
+        list-style: none;
+        display: flex;
+    }
+
+    .header__list-item {
+        padding-right: 30px;
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+
+    .active {
+        text-decoration: underline;
+        text-decoration-color: $accent-color;
+    }
+}
